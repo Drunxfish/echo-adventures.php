@@ -10,7 +10,7 @@ Originally hosted on GitLab, now moved to GitHub
 ```
 ├── NexED/
 │   ├── Introduction/
-│   ├── Advanced/
+│   ├── Novice/
 │   └── DatabasePDO/
 ```
 ---
