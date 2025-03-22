@@ -11,7 +11,7 @@ Originally hosted on GitLab **Two years ago**, now moved to GitHub
 ├── NexED/
 │   ├── Introduction/
 │   ├── Novice/
-│   └── DatabasePDO/
+│   └── PDO/
 │   └── Web/
 
 ```
