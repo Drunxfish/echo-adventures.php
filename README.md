@@ -12,8 +12,6 @@ Originally hosted on GitLab **Two years ago**, now moved to GitHub
 │   ├── Introduction/
 │   ├── Novice/
 │   └── PDO/
-│   └── Web/
-
 ```
 ---
 ## 🔧 Topics Covered
