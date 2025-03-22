@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111828;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Index  */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+}
+
+.container h1{
+    margin-top: 3.5vh;
+}
+
+.container table, .contain table{
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255,0.07);
+    color: #a8abaf;
+    border-collapse: collapse;
+}
+
+
+.container table td, th, .contain table, table td {
+    box-shadow: inset 0 0.5px 0 0.5px #111828;
+    padding: 1.3vh;
+}
+
+.container table td, .contain table td{
+    font-weight: 550;
+}
+.container table td a{
+    text-decoration: none;
+    color: #a8abaf;
+}
+
+.container table td:nth-child(1), .container th:nth-child(1), .contain table td:nth-child(1), .contain table th:nth-child(1){
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+.container table td:nth-child(2), .contain table td:nth-child(2){
+    text-align: center;
+}
+
+.container thead th:nth-child(2), .contain thead th:nth-child(2){
+    font-size: small;
+    text-align: center;
+    padding-left: 4vh;
+    padding-right: 2vh;
+}
+
+
+.container table thead th, .contain table thead th{
+    padding-left: 3vh;
+    font-size: small;
+}
+
+.container table thead th a{
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.container .edited{
+    background-color: rgb(77, 245, 147) !important;
+    color: rgb(83, 80, 80) !important;
+    font-weight: bolder;
+}
+
+
+/* SERIES&Films STYLING  */
+
+.contain{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.contain .holder{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.contain .beschr {
+    margin-top: 2vh;
+}
+
+.contain .beschr p{
+    border-radius: 2vh;
+    border: 0.5vh solid yellow;
+    padding: 2vh;
+    width: 50vw;
+    line-height: 2.5vh;
+}
+
+.contain .beschr h2{
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+
+/* FILM/SERIE wijzigen */
+
+.contain-FW{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-weight: bold;
+}
+.contain-FW h1{
+    margin-top: 5vh;
+}
+.contain-FW form{
+    margin-top: 5vh;
+}
+
+.contain-FW form{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: x-large;
+    gap: 2vh;
+    /* background-color: whitesmoke; */
+}
+.contain-FW form div{
+    width: 100%;
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: space-between;
+}
+.contain-FW form div input{
+    width: 10vw;
+    height: 2.5vh;
+    background-color: rgb(255, 255, 255,0.07);
+    border: none;
+    color: rgb(202, 198, 198);
+}
+.contain-FW form div textarea{
+    background-color: rgb(255, 255, 255,0.07);
+    border: none;
+    resize: none;
+    color: rgb(202, 198, 198);
+}
+
+.contain-FW form .knop{
+    width: 3.3vw;
+    padding: 0.6vh;
+    background-color: rgb(255, 255, 255,0.07);
+    color: whitesmoke;
+    border: none;
+}
+.contain-FW form .knop a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
